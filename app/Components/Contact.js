@@ -37,13 +37,13 @@ export const Contact = () => {
     <section id="contact" className="lg:py-20 py-10">
       <div className="container mx-auto px-6">
         <h2 className="lg:text-4xl md:text-3xl text-xl font-bold text-center sm:mb-16 mb-6 text-white">
-          Let's Connect
+          Let&apos;s Connect
         </h2>
 
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <p className="lg:text-xl sm:text-lg text-sm text-gray-300 mb-4">
-              I'm always open to discussing new opportunities, innovative projects, or just having a great conversation about technology.
+              I&apos;m always open to discussing new opportunities, innovative projects, or just having a great conversation about technology.
             </p>
             <p className="sm:text-lg text-sm text-gray-400">
               Feel free to reach out through any of the channels below!
