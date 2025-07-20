@@ -14,7 +14,7 @@ export const Contact = () => {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'linkedin.com/in/mansi-sharma',
-      link: 'https://linkedin.com/in/mansi-sharma',
+      link: 'https://www.linkedin.com/in/mansi-sharma-03b5822b1/',
       color: 'from-blue-600 to-blue-800',
     },
     {
@@ -28,7 +28,7 @@ export const Contact = () => {
       icon: Code,
       label: 'LeetCode',
       value: 'leetcode.com/mansi-sh07',
-      link: 'https://leetcode.com/mansi-sh07',
+      link: 'https://leetcode.com/u/mansi_sh07/',
       color: 'from-orange-500 to-yellow-500',
     },
   ];

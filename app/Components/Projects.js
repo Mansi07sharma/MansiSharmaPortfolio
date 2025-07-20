@@ -27,6 +27,7 @@ export const Projects = () => {
         "Built a modular and scalable backend using Node.js and Express.js, integrated Gemini API for prompt handling, and tested all endpoints rigorously using Postman."
       ],
       github: "https://github.com/Mansi07sharma/AI-DSA-Visualizer",
+      demo:"https://www.linkedin.com/posts/mansi-sharma-03b5822b1_flowmind-ai-dsa-activity-7345447313487650819-ly1M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEsDYa8B3lepWTvHETIU9Ar2ogKq0A6isgU"
     },
     {
       title: "LivWell – Smart Housing and Property Management",
@@ -40,6 +41,7 @@ export const Projects = () => {
         "Designed chatbot assistant and user dashboards (“My Property” & “My Purchases”), while managing GitHub workflows, code reviews, and deployment pipelines as project lead."
       ],
       github: "https://github.com/Mansi07sharma/LivWell-MERN-AI",
+      demo:"https://www.linkedin.com/posts/mansi-sharma-03b5822b1_hackathon-reactjs-firebase-activity-7323705417706971137-NhoD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEsDYa8B3lepWTvHETIU9Ar2ogKq0A6isgU"    
     }
   ];
 
@@ -120,7 +122,7 @@ const ProjectCard = ( {project,index,activeIdx,setIdx}) => (
             <Github size={20}/>
           </a>
           <a
-            href="https://linkedin.com/mansi-sharma"
+            href={project.demo}
             className="text-gray-400 hover:text-white transition-colors"
             title="Live Demo"
             target="_blank" rel="noopener noreferrer"
