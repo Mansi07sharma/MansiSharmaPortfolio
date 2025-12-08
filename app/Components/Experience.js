@@ -62,10 +62,10 @@ function Experience() {
                     Experience
                 </h2>
 
-                <div className="lg:flex lg:gap-10 justify-center">
+                <div className="lg:flex lg:flex-wrap lg:gap-10 justify-center">
                     {experiences.map((exp, index) => (
                         <div key={index} className="lg:w-1/2 mt-2">
-                            <div className="bg-[#242323] md:p-8 p-4 rounded-xl border-l-4 border-r-4 border-gray-400 ">
+                            <div className="bg-[#242323] md:p-8 p-4 rounded-xl border-l-4 border-r-4 border-gray-400 h-full flex flex-col">
                                 <div className="flex items-start space-x-4">
                                     <div className={`sm:p-3 p-2 rounded-lg bg-gradient-to-r from-gray-100 to-gray-600`}>
                                         <exp.icon className="text-white sm:w-7 sm:h-7 w-4 h-4" />
