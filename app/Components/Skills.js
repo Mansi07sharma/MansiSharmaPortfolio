@@ -3,37 +3,94 @@ import { LucideArrowBigRightDash } from 'lucide-react';
 
 export const Skills = () => {
   const skillCategories = [
-    {
-      title: "Languages",
-      skills: ["Python", "C", "C++", "Java", "JavaScript", "SQL"],
-
-    },
-    {
-      title: "Frontend",
-      skills: ["React.js", "Next.js", "HTML5", "CSS3", "Tailwind CSS"],
- 
-    },
-    {
-      title: "Backend",
-      skills: ["Node.js", "Express.js", "REST APIs", "JWT", "Socket.IO"],
-
-    },
-    {
-      title: "Databases",
-      skills: ["MongoDB", "MySQL", "Firebase Realtime DB"],
- 
-    },
-    {
-      title: "Tools & Cloud",
-      skills: ["Git", "GitHub", "VS Code", "Postman", "IBM Cloud", "Watsonx Assistant", "Watson Studio"],
-
-    },
-    {
-      title: "Soft Skills",
-      skills: ["Growth Mindset", "Inclusive Collaboration", "Self-Driven", "Accountability", "Logical Reasoning"],
- 
-    }
-  ];
+      {
+        title: "Languages",
+        skills: [
+          "Python",
+          "C",
+          "C++",
+          "Java",
+          "JavaScript",
+          "SQL"
+        ],
+      },
+      {
+        title: "Frontend",
+        skills: [
+          "React.js",
+          "Next.js",
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS",
+          "React Flow"
+        ],
+      },
+      {
+        title: "Backend",
+        skills: [
+          "Node.js",
+          "Express.js",
+          "REST APIs",
+          "Fast APIs",
+          "JWT",
+          "Socket.IO",
+          "Webhooks",
+          "Microservices"
+        ],
+      },
+      {
+        title: "Databases",
+        skills: [
+          "MongoDB",
+          "MySQL",
+          "Firebase Realtime DB",
+          "PostgreSQL"
+        ],
+      },
+      {
+        title: "AI & Machine Learning",
+        skills: [
+          "Gemini API",
+          "OpenAI API",
+          "LLM Integration",
+          "Prompt Engineering",
+          "AI Agents",
+          "Multi-Agent Systems",
+          "RAG (Retrieval-Augmented Generation)",
+          "Model Fine-Tuning",
+          "AutoAI",
+          "ComfyUI Workflows",
+          "DeepSeek OCR",
+        ],
+      },
+      {
+        title: "Cloud & Dev Tools",
+        skills: [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman",
+          "Linux",
+          "SendGrid",
+          "IBM Cloud",
+          "Watsonx Assistant",
+          "Watson Studio"
+        ],
+      },
+      {
+        title: "Soft Skills",
+        skills: [
+          "Growth Mindset",
+          "Inclusive Collaboration",
+          "Self-Driven",
+          "Accountability",
+          "Logical Reasoning",
+          "Problem Solving",
+          "Communication"
+        ],
+      }
+    ];
+    
 
   return (
     <div id='skills' className=" lg:py-20 py-10">
