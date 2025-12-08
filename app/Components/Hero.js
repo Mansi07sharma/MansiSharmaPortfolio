@@ -11,7 +11,7 @@ import Navbar from './Navbar'
 
 export default function Hero() {
     const handleResume=()=>{
-        const resumeUrl = 'https://drive.google.com/file/d/1bG__JnNuH9j4CbV3hPPoGBqIh3Sm1oym/view?usp=drivesdk'; 
+        const resumeUrl = 'https://drive.google.com/file/d/1BjCPotArLDvaVKRZGMX9GVFF7QCTSwUC/view?usp=drivesdk'; 
         window.open(resumeUrl, '_blank'); 
     }
     return (
