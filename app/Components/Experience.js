@@ -1,14 +1,32 @@
 "use client";
 import React, { useState } from 'react'
-import { Calendar, MapPin, Code, TrendingUp, ChevronDown, ChevronUp } from 'lucide-react';
+import { Calendar, MapPin, Code, TrendingUp, ChevronDown, ChevronUp, Cpu } from 'lucide-react';
+
 function Experience() {
-    const [idx,setIdx]=useState(null);
+    const [idx, setIdx] = useState(null);
 
     const handleOpen = (index) => () => {
-        setIdx(index===idx?null:index);
+        setIdx(index === idx ? null : index);
     }
 
     const experiences = [
+
+        {
+            company: "Source Soft Solutions Pvt. Ltd.",
+            role: "Software Developer Intern",
+            duration: "Sep 2025 - Nov 2025",
+            location: "Remote",
+            achievements: [
+                "Designed and implemented a multi-agent UI generator and validation framework leveraging AI agents to dynamically create and verify UI components from natural language prompts.",
+                "Developed an intelligent Fetch Agent capable of interpreting user queries, generating MongoDB queries, retrieving data, and responding contextually.",
+                "Integrated DeepSeek OCR to build accurate, production-ready text extraction workflows.",
+                "Built and managed end-to-end AI automation pipelines using ComfyUI for workflow orchestration.",
+                "Gained hands-on experience working in Linux environments for development, testing, and deployment operations.",
+                "Developed a full email automation pipeline using SendGrid and Webhooks, enabling agents to auto-send emails, detect replies, and continue conversations automatically.",
+                "Engineered a scalable Python-based multi-agent automation system designed to support 100K+ users."
+            ],
+            icon: Cpu,
+        },
 
         {
             company: "GirlScript Summer of Code (GSSoC)",
@@ -22,6 +40,7 @@ function Experience() {
             ],
             icon: Code,
         },
+
         {
             company: "Edunet Foundation",
             role: "Cloud and AI Intern",
@@ -49,7 +68,7 @@ function Experience() {
                             <div className="bg-[#242323] md:p-8 p-4 rounded-xl border-l-4 border-r-4 border-gray-400 ">
                                 <div className="flex items-start space-x-4">
                                     <div className={`sm:p-3 p-2 rounded-lg bg-gradient-to-r from-gray-100 to-gray-600`}>
-                                        <exp.icon className="text-white sm:w-7 sm:h-7 w-4 h-4"  />
+                                        <exp.icon className="text-white sm:w-7 sm:h-7 w-4 h-4" />
                                     </div>
                                     <div className="flex-1">
                                         <div className='flex justify-between items-center'>
@@ -58,7 +77,7 @@ function Experience() {
                                                 onClick={handleOpen(index)}
                                                 className="text-white hover:text-gray-300 transition md:hidden"
                                             >
-                                                {idx===index? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+                                                {idx === index ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                                             </button>
                                         </div>
                                         <h4 className="lg:text-xl sm:text-lg text-xs text-gray-200 mb-3">{exp.company}</h4>
@@ -75,7 +94,7 @@ function Experience() {
                                     </div>
                                 </div>
 
-                                <ul className={`space-y-3  ${idx===index? 'block' : 'hidden'
+                                <ul className={`space-y-3 ${idx === index ? 'block' : 'hidden'
                                     } md:block transition-all duration-300`}>
                                     {exp.achievements.map((achievement, idx) => (
                                         <li key={idx} className="flex items-start space-x-3">
@@ -93,4 +112,4 @@ function Experience() {
     );
 }
 
-export default Experience
+export default Experience;
