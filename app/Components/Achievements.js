@@ -16,7 +16,7 @@ export const Achievements = () => {
     {
       icon: Target,
       title: "Problem Solving",
-      description: "Solved 200+ problems on LeetCode and 100+ on GeeksforGeeks, strengthening data structures and algorithms.",
+      description: "Solved 450+ problems on LeetCode and 250+ on GeeksforGeeks, strengthening data structures and algorithms.",
     },
     {
       icon: Trophy,
