@@ -15,6 +15,36 @@ export const Projects = () => {
   };
 
   const projects = [
+      {
+        title: "System Design Simulator",
+        date: "Nov 2025",
+        technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "React Flow", "JWT", "Google OAuth"],
+        description:
+          "An interactive system design platform to visually build distributed architectures and run real-world simulations like latency, RPS, throughput, failures, and bottleneck detection.",
+        features: [
+          "Built a drag-and-drop HLD builder with React Flow supporting microservices, load balancers, caches, message queues, and databases.",
+          "Engineered a real-time simulation engine to analyze traffic flow, latency spikes, SLA/SLO violations, throughput, and autoscaling behavior.",
+          "Implemented secure auth using JWT and Google OAuth with persistent architecture storage in MongoDB.",
+          "Designed a performance analysis module with traffic propagation, fault injection, and auto-scaling recommendations."
+        ],
+        github: "https://github.com/Mansi07sharma/System-Design-Simulator",
+        demo: "https://system-design-simulator-smoky.vercel.app/"
+    },
+    {
+      title: "InternSecure – Fake Internship Detection",
+      date: "July 2025",
+      technologies: ["Next.js", "Gemini API", "WHOIS API", "Vercel"],
+      description:
+        "An AI-powered platform that detects fraudulent internships by analyzing job descriptions, HR emails, and domain authenticity using WHOIS and LLM-based scoring.",
+      features: [
+        "Developed a fraud detection engine using Gemini LLM to evaluate job descriptions, HR identity, and posting patterns for authenticity.",
+        "Integrated WHOIS API to fetch domain metadata for verification of company legitimacy.",
+        "Implemented secure asynchronous API workflows with proper error handling, rate limiting, and logging for reliability.",
+        "Deployed scalable Next.js backend on Vercel with optimized CI/CD pipelines for low-latency API responses."
+      ],
+      github: "https://github.com/Mansi07sharma/InternSecure",
+      demo: "https://intern-secure.vercel.app/"
+    },
     {
       title: "FlowMind – AI-Powered DSA Visualizer",
       date: "June 2025",
